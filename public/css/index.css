@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.totalSalary {
+  margin-left: 48%;
+}
+
+.projectTitle {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.payrollTable {
+  width: 70%;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  border-collapse:collapse;
+}
+
+.payrollColumnCell {
+  border: 1px solid black;
+  padding: 15px;
+  text-align: center;
+}
+
+.payrollColumnTitle {
+  font-weight: 600;
+}
+
+.payrollCell {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.payrollInfo {
+  display: flex;
+  margin-bottom: 30px;
+
+}
+
+.payrollExtraditionDate {
+  margin-right: 5px;
+}
+
+.quotLine {
+  width: 5%;
+  border-bottom: 1px solid black;
+  margin-right: 5px;
+}
+
+.leftQuote {
+  margin-right: 15px;
+}
+
+.dateLine {
+  margin-top: 21px;
+  margin-right: 13%;
+  width: 17%;
+  height: 1px;
+  background: black;
+}
+
+.signatureLine {
+  margin-top: 20px;
+  width: 17%;
+  height: 1px;
+  background: black;
+}
+
+.drop-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 50px;
+  border: 5px dashed blue;
+}
+

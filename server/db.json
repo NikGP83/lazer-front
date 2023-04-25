@@ -1,0 +1,75 @@
+{
+  "payrollData": 
+    {
+      "id": "ГАГ-2022-12-01T00:00:00.000Z",
+      "centerId": "ГАГ",
+      "dateISO": "2022-12-01T00:00:00.000Z", 
+      "employees": [
+        {
+          "advance": 9000,
+          "name": "Елизавета Старых",
+          "netPay": 30000,
+          "position": "Управляющий",
+          "salary": 21000
+        },
+        {
+          "name": "Алексей Кузнецов",
+          "netPay": 15000,
+          "position": "Повар",
+          "salary": 15000
+        },
+        {
+          "name": "Владимир Моржов",
+          "position": "Повар"
+        }
+      ]
+    }
+  ,
+  "monthlyReport": 
+    {
+      "dateISO": "2022-12-01T00:00:00.000Z",
+      "nameOfCenter": "Омский",
+      "employees": [
+        {
+          "id": "1",
+          "name": "Mike",
+          "position": "Cook",
+          "department": "Center",
+          "ratePerHour": "1",
+          "foodExpenses": "400",
+          "award1": "466",
+          "award2": "9568",
+          "banquetPercent": "23",
+          "tips1": "3335",
+          "tips2": "32434",
+          "totalSalary": "3455345435",
+          "salary": "45345",
+          "fine": "4",
+          "medicalBook": "yes",
+          "tax": "33",
+          "additionalResp": "232",
+          "prepaidExpense": "23423",
+          "workDay": "yes",
+          "workNight": "yes",
+          "work": [
+            {
+              "day": "1",
+              "hour": "3,5"
+            },
+            {
+              "day": "2",
+              "hour": "3,5"
+            },
+            {
+              "day": "3",
+              "hour": "3,5"
+            },
+            {
+              "day": "4",
+              "hour": "3,5"
+            }
+          ]
+        }
+      ]
+    }
+}
